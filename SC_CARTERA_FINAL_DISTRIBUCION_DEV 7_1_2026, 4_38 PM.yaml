@@ -18,16 +18,6 @@ tables:
       schema: SC
       table: SC_CARTERA_FINAL_DISTRIBUCION
     dimensions:
-      - name: BLACKLIST
-        synonyms:
-          - Lista de exclusión
-          - Lista negra
-        description: Indicador que indica si el cliente pertenece a lista negra
-        expr: BLACKLIST
-        data_type: VARCHAR(2)
-        sample_values:
-          - SI
-          - 'NO'
       - name: CICLO
         synonyms:
           - Ciclo Facturación
